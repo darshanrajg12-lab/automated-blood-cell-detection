@@ -58,9 +58,10 @@ automated-blood-cell-detection
 │ └── blood_cell_detection.ipynb
 │
 ├── screenshots
-│ ├── detection_result1.png
-│ ├── detection_result2.png
-│ └── training_results.png
+│ ├── training_results.png
+│ ├── detected_image.png
+│ └── ground_truth_augmented.png
+
 │
 └── README.md
 ---
@@ -77,19 +78,24 @@ The model learns spatial features and predicts bounding boxes around detected bl
 
 # Detection Results
 
-Example predictions from the trained model.
+Example outputs from the trained YOLOv5 model.
 
-### Blood Cell Detection Example
-
-![Detection Result](screenshots/detection_result1.png)
-
-### Additional Detection Output
-
-![Detection Result](screenshots/detection_result2.png)
-
-### Training Results
+### Training Performance
 
 ![Training Results](screenshots/training_results.png)
+
+### Model Detection Output
+
+![Detected Image](screenshots/detected_image.png)
+
+
+### Ground Truth with Augmented Labels
+
+![Ground Truth](screenshots/ground_truth_augmented.png)
+
+### Test Input Image
+
+![Test Image](screenshots/test_image.png)
 
 ---
 
@@ -104,3 +110,4 @@ normal white blood cells from leukemia cells by detection, classification, and c
 [2] V. B. Inchur, L. S. Praveen and P. Shankpal, "Implementation of Blood Cell Counting Algorithm using Digital Image 
 Processing Techniques," 2020 International Conference on Recent Trends on Electronics, Information, Communication & 
 Technology (RTEICT), Bangalore, India, 2020, pp. 21-26, doi: 10.1109/RTEICT49044.2020.9315603. 
+
