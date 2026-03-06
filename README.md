@@ -48,24 +48,24 @@ The dataset contains annotated microscopic blood smear images with bounding boxe
 ---
 
 # Repository Structure
----
+
+```
 automated-blood-cell-detection
 │
 ├── docs
-│ └── project_report.pdf
+│   └── project_report.pdf
 │
 ├── notebook
-│ └── blood_cell_detection.ipynb
+│   └── blood_cell_detection.ipynb
 │
 ├── screenshots
-│ ├── training_results.png
-│ ├── detected_image.png
-│ └── ground_truth_augmented.png
-
+│   ├── training_results.png
+│   ├── detected_image.png
+│   ├── ground_truth_augmented.png
+│   └── test_image.png
 │
 └── README.md
----
-
+```
 ---
 
 # Model Training
@@ -80,10 +80,6 @@ The model learns spatial features and predicts bounding boxes around detected bl
 
 Example outputs from the trained YOLOv5 model.
 
-### Training Performance
-
-![Training Results](screenshots/training_results.png)
-
 ### Model Detection Output
 
 ![Detected Image](screenshots/detected_image.png)
@@ -97,17 +93,19 @@ Example outputs from the trained YOLOv5 model.
 
 ![Test Image](screenshots/test_image.png)
 
+### Training Performance
+
+![Training Results](screenshots/training_results.png)
+
 ---
 
 # References
 
-- YOLOv5 – Ultralytics
-- BCCD Dataset
-[1] D. Trong Luong, D. Duy Anh, T. Xuan Thang, H. Thi Lan Huong, T. Thuy Hanh and D. Minh Khanh, "Distinguish 
-normal white blood cells from leukemia cells by detection, classification, and counting blood cells using YOLOv5," 2022 
-7th National Scientific Conference on Applying New Technology in Green Buildings (ATiGB), Da Nang, Vietnam, 2022, pp. 
-156-160, doi: 10.1109/ATiGB56486.2022.9984098.
-[2] V. B. Inchur, L. S. Praveen and P. Shankpal, "Implementation of Blood Cell Counting Algorithm using Digital Image 
-Processing Techniques," 2020 International Conference on Recent Trends on Electronics, Information, Communication & 
-Technology (RTEICT), Bangalore, India, 2020, pp. 21-26, doi: 10.1109/RTEICT49044.2020.9315603. 
+- YOLOv5 – Ultralytics  
+- BCCD Dataset  
+
+[1] D. Trong Luong et al., "Distinguish normal white blood cells from leukemia cells by detection, classification, and counting blood cells using YOLOv5," ATiGB 2022.
+
+[2] V. B. Inchur et al., "Implementation of Blood Cell Counting Algorithm using Digital Image Processing Techniques," RTEICT 2020.
+
 
