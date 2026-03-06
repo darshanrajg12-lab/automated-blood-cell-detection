@@ -1,4 +1,11 @@
+
 # Automated Blood Cell Detection using YOLOv5
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Framework](https://img.shields.io/badge/Framework-PyTorch-orange)
+![Model](https://img.shields.io/badge/Model-YOLOv5-red)
+![Platform](https://img.shields.io/badge/Platform-Google%20Colab-yellow)
+![Dataset](https://img.shields.io/badge/Dataset-BCCD-green)
 
 This project implements a deep learning based system for detecting and classifying blood cells from microscopic blood smear images using the YOLOv5 object detection framework.
 
@@ -107,5 +114,6 @@ Example outputs from the trained YOLOv5 model.
 [1] D. Trong Luong et al., "Distinguish normal white blood cells from leukemia cells by detection, classification, and counting blood cells using YOLOv5," ATiGB 2022.
 
 [2] V. B. Inchur et al., "Implementation of Blood Cell Counting Algorithm using Digital Image Processing Techniques," RTEICT 2020.
+
 
 
