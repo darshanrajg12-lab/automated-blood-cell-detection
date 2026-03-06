@@ -83,7 +83,7 @@ The model learns spatial features and predicts bounding boxes around detected bl
 
 ---
 
-# Detection Results
+# Experimental Results
 
 Example outputs from the trained YOLOv5 model.
 
@@ -96,7 +96,7 @@ Example outputs from the trained YOLOv5 model.
 
 ![Ground Truth](screenshots/ground_truth_augmented.png)
 
-### Test Input Image
+### Test Image
 
 ![Test Image](screenshots/test_image.png)
 
@@ -114,6 +114,7 @@ Example outputs from the trained YOLOv5 model.
 [1] D. Trong Luong et al., "Distinguish normal white blood cells from leukemia cells by detection, classification, and counting blood cells using YOLOv5," ATiGB 2022.
 
 [2] V. B. Inchur et al., "Implementation of Blood Cell Counting Algorithm using Digital Image Processing Techniques," RTEICT 2020.
+
 
 
 
